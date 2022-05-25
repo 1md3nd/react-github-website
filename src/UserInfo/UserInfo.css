@@ -1,0 +1,24 @@
+.UserInfoComponent{
+    display: flex;   
+    flex-direction: row;
+    padding: 10px 20px;
+}
+
+.UserAvtar{
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+    align-self: flex-start;
+
+}
+.UserName{
+    font-size: 30px;
+
+}
+.UserDetails{
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    align-items: flex-start;
+    margin-left: 50px;
+}
